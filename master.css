@@ -41,13 +41,13 @@
 }
 
 .active:hover{
-  font-size: 140%;
+  font-size: 130%;
   color:rgb(226, 5, 127);
   font-weight: bold;
 }
 .Image{
   background-image: url("images/sky.jpg");
-  height: 600px;
+  height: 700px;
   width:100%;
   padding-top: 5%;
 }
@@ -219,14 +219,16 @@ td{
   text-align: center;
   padding-top: 14%;
   font-size: 140%;
+  text-align: center;
 }
 .box-text1{
   font-size: 100%;
   font-weight: 500;
+ 
 }
 #box-text-link{
   text-decoration: none;
-  color: black;
+ 
 }
 #box-text-link:hover{
   color: blue;
@@ -260,6 +262,7 @@ td{
   width:50%;
   background-color:#ebe3e9;
   margin-top: 80px;
+
 }
 .about-text{
   color:black;
@@ -314,7 +317,7 @@ td{
   color:red;
 }
 .footer-link{
-  margin-right:3%;
+  margin-right:9%;
 }
 .footer-img1{
   height:auto;

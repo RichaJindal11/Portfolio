@@ -4,7 +4,7 @@ document.getElementById("submit").addEventListener("click", (e)=>{
     console.log(first)
     const last = document.getElementById("lname").value
     const email = document.getElementById("Email").value
-    const password = document.getElementById("password").value
+    const phone = document.getElementById("password").value
     // const Gender = document.getElementById("gender").value
     // const Message = document.getElementById("message").value
 
@@ -14,8 +14,9 @@ document.getElementById("submit").addEventListener("click", (e)=>{
     myObject.first_name = first;
     myObject.last_name = last;
     myObject.Email = email;
-    myObject.Password = password;
+    myObject.Phonenumber= phone;
     // myObject.Message= 
     console.log(myObject)
+    history.back();
 
 })
