@@ -1,0 +1,325 @@
+
+/* --------------------------------------------------------------------NAVBAR-------------------------------------------------- */
+.nav-bar{
+  background-color: black;
+  color: white;
+  height:60px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  font-size: 150%;
+  /* padding-top: 0.3%; */
+  /* list-style: none; */
+}
+#name{
+  color:red;
+}
+.name{
+  font-size: 150%;
+  padding-left: 8%;
+  width: 30%;
+  font-weight: bolder;
+  padding-top: 0.2%;
+  
+  /* background-color: blue; */
+
+}
+.nav-button{
+  display: flex;
+  justify-content: space-evenly;
+  width:70%;
+  flex-direction: row;
+  padding-top: 0.8%;
+  list-style: none;
+  /* background-color: aquamarine; */
+
+}
+.active{
+  text-decoration: none;
+  color: white;
+  text-align: right;
+}
+
+.active:hover{
+  font-size: 140%;
+  color:rgb(226, 5, 127);
+  font-weight: bold;
+}
+.Image{
+  background-image: url("images/sky.jpg");
+  height: 600px;
+  width:100%;
+  padding-top: 5%;
+}
+
+.img-text{
+  color:white;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 4%;
+}
+.text{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+.button{
+  background-color: black;
+  color: white;
+  margin-left: 48%;
+  margin-top: 2%;
+  font-size: large;
+  
+}
+/* -------------------------------------------------------------------SKILLS---------------------------------------------------  */
+.recent-project{
+  text-align: center;
+  font-family:cursive;
+  /* margin-bottom: 3%; */
+  margin-top: 4%;
+}
+
+#project-rec{
+  color: red;
+}
+
+.div1{
+  height:250px;
+  width:90%;
+  background-color:black;
+  margin-left:5%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content:space-evenly;
+  padding-top: 4%;
+}
+.img-box{
+  width: 10%;
+}
+.skill-img{
+  /* text-align: center; */
+  height: 70%; 
+  margin-left: 60%;
+  width: 80%;
+} 
+
+.skill-text{
+  width: 80%;
+}
+
+#python{
+  text-size-adjust: 10%;
+  font-size: 30px;
+  font: bold;
+}
+p{
+ 
+  color: blanchedalmond;
+  margin: 10%;
+
+} 
+.star{
+  height: 30px;
+  width:30px;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/* .div-2-col-1-row{
+  width: 50px;
+}
+
+
+.div-1-col-1-row{
+  background-color: red;
+  width:50%;
+
+}
+
+
+table{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  height:6%;
+  width: 80%;
+  align-items: center;
+  
+
+
+}
+td{
+  /* position: relative; */
+  /* width: 30%;
+  padding: 2%;
+  box-shadow: 10%;
+
+} */
+
+
+
+
+.project-table{
+  height:1600px;
+  width:80%;
+  margin:10%;
+  background-color: black;
+}
+.table-row{
+  width:100%;
+  height:400px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* padding-top: 50px; */
+ 
+}
+.row-colomn{
+  width:100%;
+  height:400px; 
+  background-color:rgb(27, 25, 25);
+
+
+ } 
+ .row-content{
+  width:100%;
+  height:300px; 
+  text-align: center;
+  padding-top: 10%;
+  font-size: 130%;
+ } 
+.recent-img{
+  height:250px;
+  width:50%;
+  margin-top: 8%;
+  margin-left: 20%;
+}
+
+
+/* ------------------------------------------------CONTACT INFO SECTION------------------------------------------------------ */
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 7%;
+}
+
+.boxes1{
+     width: 30%;
+     height:200px;
+     background-color:whitesmoke;
+     border-radius: 5%;
+     box-shadow: 5px 5px 10px 10px #ebe3e9;
+     justify-content: center;
+     color: black;
+}
+.box-text{
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 14%;
+  font-size: 140%;
+}
+.box-text1{
+  font-size: 100%;
+  font-weight: 500;
+}
+#box-text-link{
+  text-decoration: none;
+  color: black;
+}
+#box-text-link:hover{
+  color: blue;
+}
+/* -------------------------------------------------ABOUT ME SECTION------------------------------------------------ */
+#About{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#ebe3e9;
+  width: 80%;
+  height: 700px;
+  margin: 10%;
+
+}
+
+.About-box{
+  height: 500px;
+  width:35%;
+  background-color:#ebe3e9;
+  margin-top: 80px;
+  border-style: solid;
+  border-width: 10px;
+  
+}
+.about-img{
+  height:480px;
+  width:100%;
+}
+.About-box1{
+  height: 500px;
+  width:50%;
+  background-color:#ebe3e9;
+  margin-top: 80px;
+}
+.about-text{
+  color:black;
+  font-size: 19px;
+  margin-left: 0%;
+}
+#me{
+  color:black;
+  font-size: large;
+  font-weight: 100px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+#about-education{
+  color:black;
+  font-weight: 800;
+  text-align: center;
+}
+.education-text{
+  font-weight: 500;
+}
+.education{
+  font-size: 120%;
+  font-weight: 700;
+  color: black;
+}
+/* ----------------------------------------------------------FOOTER SECTION------------------------------------------------------------- */
+
+.footer{
+  text-align: center;
+  background-color: rgb(44, 41, 41);
+  width: 100%;
+  height:250px;
+}
+.footer-text{
+  color:white;
+  text-align: center;
+  padding-top:3%;
+  font-size: 200%;
+  font-weight: bolder;
+}
+.footer-img{
+  height: 30px;
+  width:30%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35%;
+}
+.footer-color{
+  color:red;
+}
+.footer-link{
+  margin-right:3%;
+}
+.footer-img1{
+  height:auto;
+  width: auto;
+  /* margin-right:10%; */
+  height:30px;
+  /* width:6%; */
+}
